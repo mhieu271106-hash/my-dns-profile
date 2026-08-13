@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://api.p12.vn/dns-query</string>
+
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <!-- Apple Certificate & OCSP — chặn kiểm tra P12 -->
+                    <string>certs.apple.com</string>
+                    <string>crl.apple.com</string>
+                    <string>crl3.digicert.com</string>
+                    <string>crl4.digicert.com</string>
+                    <string>ocsp.apple.com</string>
+                    <string>ocsp2.apple.com</string>
+                    <string>ocsp.digicert.com</string>
+                    <string>valid.apple.com</string>
+                    <string>pki.apple.com</string>
+                    <!-- Apple StoreKit — chặn thu hồi Gold -->
+                    <string>buy.itunes.apple.com</string>
+                    <string>sandbox.itunes.apple.com</string>
+                    <string>init.itunes.apple.com</string>
+                    <string>app.adjust.com</string>
+                    <string>ppq.apple.com</string>
+                    <string>identity.apple.com</string>
+                    <!-- RevenueCat — chặn xác minh subscription -->
+                    <string>api.revenuecat.com</string>
+                    <string>sdk.revenuecat.com</string>
+                    <string>rc-mobile-sdk.revenuecat.com</string>
+                    <string>app.revenuecat.com</string>
+                    <string>api2.revenuecat.com</string>
+                    <!-- Firebase Analytics -->
+                    <string>firebaselogging-pa.googleapis.com</string>
+                    <string>app-measurement.com</string>
+                </array>
+            </dict>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                    <key>InterfaceTypeMatch</key>
+                    <string>WiFi</string>
+                </dict>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                    <key>InterfaceTypeMatch</key>
+                    <string>Cellular</string>
+                </dict>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                </dict>
+            </array>
+            <key>PayloadDescription</key>
+            <string>© 2025 Phạm Minh Hiếu LocketGold — Bản quyền thuộc về Phạm Minh Hiếu LocketGold. Nghiêm cấm sao chép, chỉnh sửa hoặc phân phối lại dưới mọi hình thức.</string>
+            <key>PayloadDisplayName</key>
+            <string>💛 Phạm Minh Hiếu LocketGold · Anti-Revoke Shield</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.binlocketgold</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>ProhibitDisablement</key>
+            <false/>
+        </dict>
+    </array>
+
+    <key>PayloadDescription</key>
+    <string>━━━━━━━━━━━━━━━━━━━━━━━&#xA;💛 Phạm Minh Hiếu LOCKETGOLD&#xA;━━━━━━━━━━━━━━━━━━━━━━━&#xA;&#xA;👑 HỆ THỐNG BẢO VỆ GOLD CAO CẤP&#xA;&#xA;🔒 CHỐNG RỤNG GOLD 99% — MỌI THIẾT BỊ&#xA;🛡️ Chặn toàn bộ máy chủ thu hồi bản quyền&#xA;🚫 Vô hiệu hóa RevenueCat &amp;amp; Apple StoreKit&#xA;⚡ Tự động kích hoạt lại khi đổi mạng WiFi/4G/5G&#xA;🌐 Mạng internet hoạt động hoàn toàn bình thường&#xA;&#xA;━━━━━━━━━━━━━━━━━━━━━━━&#xA;© 2025 Phạm Minh Hiếu LocketGold&#xA;Bản quyền thuộc về Phạm Minh Hiếu LocketGold&#xA;Link Facebook:https://www.facebook.com/PhamMinhHieu.Profile&#xA;Nghiêm cấm sao chép &amp;amp; phân phối lại&#xA;━━━━━━━━━━━━━━━━━━━━━━━&#xA;&#xA;⚠️ KHÔNG GỠ profile — Gold sẽ bị thu hồi ngay!</string>
+
+    <key>PayloadDisplayName</key>
+    <string>💛 Phạm Minh Hiếu LocketGold</string>
+
+    <key>PayloadIdentifier</key>
+    <string>com.hieulocketgold.dns.system</string>
+
+    <key>PayloadOrganization</key>
+    <string>© Phạm Minh Hiếu LocketGold </string>
+
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
+
+    <key>PayloadUUID</key>
+    <string>98A2C262-B2A1-4CF1-83D1-E6E73AFFAFC6</string>
+
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+
+    <key>ConsentText</key>
+    <dict>
+        <key>default</key>
+        <string>━━━━━━━━━━━━━━━━━━━━━━━
+💛 Phạm Minh Hiếu LOCKETGOLD — ANTI-REVOKE SHIELD
+© 2025 Phạm Minh Hiếu LocketGold · 
+━━━━━━━━━━━━━━━━━━━━━━━
+
+Profile DNS này là sản phẩm độc quyền của Phạm Minh Hiếu LocketGold.
+
+✅ Chặn toàn bộ máy chủ thu hồi Gold của Apple và RevenueCat
+✅ Mạng internet hoạt động bình thường, không bị ảnh hưởng
+✅ Tự động bảo vệ 24/7 trên WiFi · 4G · 5G
+
+⚠️ KHÔNG GỠ hoặc XOÁ profile này.
+Nếu gỡ, Gold sẽ bị thu hồi ngay lập tức.
+
+━━━━━━━━━━━━━━━━━━━━━━━
+Bản quyền thuộc về Phạm Minh Hiếu LocketGold.
+Nghiêm cấm sao chép, chỉnh sửa hoặc
+phân phối lại dưới mọi hình thức.
+━━━━━━━━━━━━━━━━━━━━━━━</string>
+    </dict>
+</dict>
+</plist>
